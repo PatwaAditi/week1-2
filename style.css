@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.my-title {
+  color: brown;
+  font-size: 10vw;
+}
+
+.my-para {
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.my-para span {
+  font-weight: bolder;
+  color: purple;
+  text-decoration: underline;
+}
+
+.unordered-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  gap: 0px 20px;
+}
+
+.my-list {
+  list-style: none;
+  display: grid;
+  /* grid-template-columns: 2fr 1fr 1fr; */
+  grid-template-rows: 2fr 1fr 1fr 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+.my-list li {
+  outline: 1px solid black;
+  background-color: red;
+  color: white;
+}
+
+.my-btn {
+  padding: 10px 20px 30px 40px;
+  margin-left: 40px;
+  font-size: 2rem;
+  color: rgb(251, 250, 247);
+  background-color: rgb(110, 139, 225);
+  border-style:double;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.my-btn:hover {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+#shinchan {
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+    object-fit: cover;
+    object-position: center;
+}
